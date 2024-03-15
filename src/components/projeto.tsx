@@ -14,20 +14,20 @@ export function Projeto() {
     
   return (
     <div id="portifolio" className="mt-52">
-      <div className=" sm:grid-cols-2 w-28 h-6 bg-roxo/15 rounded-full ml-10 lg:ml-40  mb-5">
+      <div className=" sm:grid-cols-2 w-28 h-6 bg-roxo/15 rounded-full ml-10 lg:ml-16  mb-5">
         <p className="text-roxo text-center font-bold text-sm lg:mt-32">
           🔗 Portfólio
         </p>
       </div>
-      <div className="mb-5">
-        <span className="text-white ml-10 font-extrabold text-3xl lg:ml-40">
+      <div className="mb-1">
+        <span className="text-white ml-10 font-extrabold text-3xl lg:ml-16">
           PROJETOS
         </span>
       </div>
-      <div className="lg:grid sm:grid sm:grid-cols-2 lg:grid-cols-4 lg:px-20 ">
+      <div className="lg:grid sm:grid sm:grid-cols-2 lg:grid-cols-4 lg:px-20 lg:-ml-5 lg:gap-16">
       {Projects.slice(0, 4).map((project, index) => (
-        <div key={index} className={`mt-5 px-6 mb-5 ${isMobile && index > 0 ? 'hidden' : ''}`}>
-          <div className="border-2 border-roxo/50 w-[330px] h-[470px] rounded-2xl ">
+        <div key={index} className={`mt-5 px-1 mb-5 ${isMobile && index > 0 ? 'hidden' : ''}`}>
+          <div className="border-2 border-roxo/50 w-[290px] h-[470px] rounded-2xl ">
         <div className="mt-5 px-6 mb-5">
           <span className="text-white font-bold text-base">{project.name}</span>
           <p className="text-white/50 font-regular text-base mt-5 mb-5">{project.description}</p>
