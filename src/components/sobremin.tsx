@@ -2,12 +2,12 @@ import Avatar from "../assets/Avatar.png";
 
 export function SobreMin() {
   return (
-    <div className="grid justify-center mt-28 lg:-ml-24 lg:grid-cols-2 lg:mt-80" id="sobremin">
-      <div className="flex items-center">
-        <img src={Avatar} alt="meu avatar" className="w-[90%] h-[90%] lg:w-[75%] lg:h-[80%] " />
+    <div className="grid justify-center mt-40 lg:-ml-24 lg:grid-cols-2 lg:mt-80" id="sobremin">
+      <div className="flex items-center mt-40">
+        <img src={Avatar} alt="meu avatar" className="w-[90%] h-[90%] lg:w-[65%] lg:h-[75%] lg:ml-32" />
       </div>
       <div>
-        <div className=" w-28 h-6 bg-roxo/15 rounded-full mb-5 mt-5 lg:-ml-32 ml-7">
+        <div className=" w-28 h-6 bg-roxo/15 rounded-full mb-5 mt-5 lg:mt-56 lg:-ml-32 ml-7">
           <p className="text-roxo text-center font-bold text-sm lg:mt-16">🧐 Sobre mim</p>
         </div>
         <div className="hidden lg:grid text-white/50 lg:-ml-32">

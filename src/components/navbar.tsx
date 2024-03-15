@@ -11,7 +11,6 @@ export function Navbar() {
           <a href="#sobremin" className='focus:text-roxo'>Sobre Min</a>
           <a href="#portifolio" className='focus:text-roxo'>Portfólio</a>
           <a href="#skills" className='focus:text-roxo'>Skills</a>
-          <a href="#recomendacoes" className='focus:text-roxo'>Recomendações</a>
           <a href="#contato" className='focus:text-roxo'>Contatos</a>
         </div>
       </nav>

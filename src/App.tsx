@@ -10,7 +10,10 @@ import { RiArrowDownLine } from "react-icons/ri";
 import { IoLogoWhatsapp } from "react-icons/io5";
 import { Experience } from "./components/experience";
 import { SobreMin } from "./components/sobremin";
-import { Projetos } from "./components/projetos";
+import { Projeto } from "./components/projeto";
+import { VideoProject } from "./components/VideoProjects";
+import { Skills } from "./components/skills";
+import { Contato } from "./components/contato";
 
 function App() {
   return (
@@ -18,10 +21,10 @@ function App() {
       <Navbar />
       <div className="mt-5 flex justify-center mb-12" id="home">
         <div className="flex flex-col-2 gap-2 lg:hidden">
-          <a href="">
+          <a href="https://www.linkedin.com/in/henrique-souza-lala/">
             <img src={Linkendin} alt="Linkendin" />
           </a>
-          <a href="">
+          <a href="https://github.com/henrique5842">
             <img src={Github} alt="Github" />
           </a>
         </div>
@@ -49,11 +52,11 @@ function App() {
         <p className="font-regular text-base text-white/50 w-80 sm:text-xl mb-12">
           Front-end · Mobile developer
         </p>
-        <div className="flex flex-col-2 gap-5 ">
-          <a href="https://github.com/henrique5842">
+        <div className="hidden lg:flex flex-col-2 gap-5 ">
+          <a href="https://www.linkedin.com/in/henrique-souza-lala/" target="_blank">
             <img src={Linkendin} alt="Linkendin" />
           </a>
-          <a href="https://github.com/henrique5842">
+          <a href="https://github.com/henrique5842" target="blank">
             <img src={Github} alt="Github" />
           </a>
         </div>
@@ -77,9 +80,10 @@ function App() {
       <div>
         <Experience/>
         <SobreMin />
-        <Projetos/>
+        <Projeto/>
+        <Skills/>
+        <Contato/>
       </div>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil vel fugit cum labore praesentium, consectetur ratione eius quisquam ab pariatur quos minus optio odit ipsum impedit perferendis! Tempore, tenetur corporis.</p>
     </div>
   );
 }
