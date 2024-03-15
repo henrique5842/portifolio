@@ -11,7 +11,6 @@ import { IoLogoWhatsapp } from "react-icons/io5";
 import { Experience } from "./components/experience";
 import { SobreMin } from "./components/sobremin";
 import { Projeto } from "./components/projeto";
-import { VideoProject } from "./components/VideoProjects";
 import { Skills } from "./components/skills";
 import { Contato } from "./components/contato";
 
