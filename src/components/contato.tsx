@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 import { IoLogoWhatsapp } from "react-icons/io5";
 import { BsSend } from "react-icons/bs";

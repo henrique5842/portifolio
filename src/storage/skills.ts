@@ -1,7 +1,6 @@
 import react from '../assets/skills/React.png'
 import typescript from '../assets/skills/TypeScript.png'
 import github from '../assets/skills/Github.png'
-import git from '../assets/skills/git.png'
 import tailwindcss from '../assets/skills/TailwindCSS.png'
 import html from '../assets/skills/HTML5.png'
 import insomnia from '../assets/skills/Insomnia.png'
