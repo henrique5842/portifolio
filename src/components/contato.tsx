@@ -62,7 +62,7 @@ const [texto, ] = useState('henriquedev17@gmail.com');
             <img src={Github} alt="Github" />
           </a>
         </div>
-        <p className='text-white font-bold text-center mt-5 text-lg'>Copyright © Henrique Sousa · 2024</p>
+        <p className='text-white font-bold text-center mt-5 text-lg'>Copyright © Henrique Lala · 2024</p>
       </div>
     </div>
   );

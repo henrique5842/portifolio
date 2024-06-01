@@ -4,7 +4,7 @@ export function SobreMin() {
   return (
     <div className="grid justify-center mt-40 lg:-ml-24 lg:grid-cols-2 lg:mt-80" id="sobremin">
       <div className="flex items-center mt-40">
-        <img src={Avatar} alt="meu avatar" className="w-[90%] h-[90%] lg:w-[65%] lg:h-[75%] lg:ml-16" />
+        <img src={Avatar} alt="meu avatar" className="w-[90%] h-[90%] lg:w-[50%] lg:h-[80%] lg:ml-16" />
       </div>
       <div>
         <div className=" w-28 h-6 bg-roxo/15 rounded-full mb-5 mt-5 lg:mt-56 lg:-ml-52 ml-7">

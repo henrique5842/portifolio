@@ -47,9 +47,6 @@ export function Projeto() {
           <a href={project.projectLink} className="text-white font-bold text-base flex justify-center gap-1 mt-0.5" target="blank"><AiOutlineGlobal  size={25}/>SITE</a>
         </div>
         </div>
-        <div>
-          <a href={project.video} className="flex justify-end text-roxo mt-5 font-bold text-lg" target="_blank"><CiPlay1 size={24}/>ASSISTIR PROJETO</a>
-        </div>
         </div>
         </div>
         </div>
